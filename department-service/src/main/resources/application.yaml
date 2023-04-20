@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  cloud:
+    compatibility-verifier:
+      enabled: 'false'
+  zipkin:
+    base-url: http://127.0.0.1:9411/
